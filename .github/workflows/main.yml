@@ -1,18 +1,16 @@
 name: ✅ test
 on: [push, pull_request]
-
 jobs:
   test:
-    name: react component workflow
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm i -g utoo
-      - run: ut i
-      - run: ut lint --workspace @ant-design/x
-      - run: ut tsc --noEmit --workspace @ant-design/x
-      - run: ut compile --workspace @ant-design/x
-      - run: ut test --workspace @ant-design/x --coverage
+      - uses: oven-sh/setup-bun@v2
+      - run: bun i
+      - run: bun run lint --workspace packages/x
+      - run: bunx tsc --noEmit --workspace packages/x
+      - run: bun run compile --workspace packages/x
+      - run: bun run test --workspace packages/x -- --coverage
       - uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
