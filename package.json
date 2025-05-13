@@ -1,7 +1,7 @@
 {
   "name": "x-mono",
   "version": "1.0.0",
-  "main": ".jest.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
