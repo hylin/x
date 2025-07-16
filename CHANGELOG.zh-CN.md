@@ -20,8 +20,8 @@ tag: vVERSION
 `2025-07-16`
 
 - 🆕 补充 Bubble 组件对滚动事件`onScroll`的监听。[#1021](https://github.com/ant-design/x/pull/1021) 由 [@QdabuliuQ](https://github.com/QdabuliuQ) 提交。
-- 🐛 移除Bubble重复的TS类型定义。 [#1032](https://github.com/ant-design/x/pull/1032) 由 [@wzc520pyfm](https://github.com/wzc520pyfm) 提交。
-- 🐛 修复 Conversations 组件点击禁用的 menu 导致触发 onActiveChange 的问题。[#1024](https://github.com/ant-design/x/pull/1024) 由 [@QdabuliuQ](https://github.com/QdabuliuQ) 提交。
+- 🐛 移除 Bubble 重复的 TS 类型定义。 [#1032](https://github.com/ant-design/x/pull/1032) 由 [@wzc520pyfm](https://github.com/wzc520pyfm) 提交。
+- 🐛 修复 Conversations 组件点击禁用的 `menu` 导致触发 `onActiveChange` 的问题。[#1024](https://github.com/ant-design/x/pull/1024) 由 [@QdabuliuQ](https://github.com/QdabuliuQ) 提交。
 - 🐛 修复 Attachments 组件 `FileList` 语义化配置。[#1017](https://github.com/ant-design/x/pull/1017) 由 [@kimteayon](https://github.com/kimteayon) 提交。
 - 🐛 补充 Actions 组件 html配置。[#995](https://github.com/ant-design/x/pull/995) 由 [@vanndxh](https://github.com/vanndxh) 提交。
 - 🐛 修复 Conversations label标签展示问题，同时补充语义化配置。[#898](https://github.com/ant-design/x/pull/898) 由 [@yuanliu147](https://github.com/yuanliu147) 提交。
